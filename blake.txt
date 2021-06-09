@@ -1,1 +1,10 @@
-Hi, Blake.jjj
+This is the new version of the file
+
+there is new text
+
+when you pull, you will see a diff.
+
+that is okay
+
+it means there was a new version
+pushed before you committed
