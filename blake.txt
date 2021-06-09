@@ -1,4 +1,14 @@
 <<<<<<< HEAD
+let name = Blake
+
+`Hi, ${name}.jjj`
+=======
+<<<<<<< HEAD
+Hi, Blake.jjj
+
+making it different. 
+=======
+<<<<<<< HEAD
 Hi, Blake.jjj
 not working
 updates done by soufiane.
@@ -17,3 +27,5 @@ pushed before you committed
 =======
 >>>>>>> ae16a9ab87a3c4b76578ec170f51ea0988f5acf0
 >>>>>>> 23db08acd2660cddf160a612508acea53f71d0ff
+>>>>>>> 71843a10234154a988bc7de7e4a6eb280b5295e6
+>>>>>>> c124e4a10da137bee1d774920aab7cf74c1ce681
