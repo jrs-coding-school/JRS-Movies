@@ -1,2 +1,2 @@
 # JRS-Twitter
-A clone of Twitter made by JRS Coding School Students
+A clone of Twitter made by the awsome JRS Coding School Students
