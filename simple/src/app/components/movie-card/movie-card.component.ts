@@ -10,7 +10,9 @@ import { Movie } from 'src/models/movie.model';
 export class MovieCardComponent implements OnInit {
   movie: Movie
 
-  constructor(private movieService: MovieService) { }
+  constructor(private movieService: MovieService) {
+    //TODO: subscribe to any changes to the active movie
+  }
 
   ngOnInit(): void {
     this.movie = this.movieService.getActiveMovie()
