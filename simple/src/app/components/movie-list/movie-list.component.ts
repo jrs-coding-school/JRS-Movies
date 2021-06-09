@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { MovieService } from 'src/app/services/movie.service';
+import { Movie } from 'src/models/movie.model';
+
 
 @Component({
   selector: 'app-movie-list',
@@ -7,9 +10,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MovieListComponent implements OnInit {
 
-  constructor() { }
+  movies: Movie[] = [];
+
+  constructor(private movieService: MovieService) { }
 
   ngOnInit(): void {
+
+  }
+
+  onMovieClicked(i: number) {
+    this.movieService.setActiveMovie(this.movies[i])
+
   }
 
 }
