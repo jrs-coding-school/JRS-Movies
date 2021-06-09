@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+Hi, Blake.jjj
+not working
+updates done by soufiane.
+=======
 This is the new version of the file
 
 there is new text
@@ -8,3 +13,7 @@ that is okay
 
 it means there was a new version
 pushed before you committed
+<<<<<<< HEAD
+=======
+>>>>>>> ae16a9ab87a3c4b76578ec170f51ea0988f5acf0
+>>>>>>> 23db08acd2660cddf160a612508acea53f71d0ff
