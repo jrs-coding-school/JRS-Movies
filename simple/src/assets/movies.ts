@@ -5,7 +5,7 @@ export const Movies = [
         director : "Sean Penn",
         genre: "adventure drama",
         ratingRT: 83,
-        posterPath:"../assets/IntoWild.jpg"
+        posterPath:"JRS-Twitter/simple/src/assets/IntoWild.jpg"
     },
     {
         title : "The Transporter",
@@ -13,6 +13,6 @@ export const Movies = [
         director : "Corey Yuen",
         genre: "action",
         ratingRT: 54,
-        posterPath:"../assets/The transporter.jpeg"
+        posterPath:"JRS-Twitter/simple/src/assets/The transporter.jpeg"
     }
 ];
