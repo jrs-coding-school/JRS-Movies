@@ -1,9 +1,10 @@
 let a = "alex"
-
+a = 'asdf'
 let b = "blake"
-
+b = 'bnm,'
 let j = "jazmin"
-
+j = "jkl;"
 let s = "soufiane"
-
+s = "sdfg"
 let t = "tanner"
+t = "tyui"
