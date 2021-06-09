@@ -8,12 +8,12 @@ import { Movie } from 'src/models/movie.model';
   styleUrls: ['./movie-card.component.css']
 })
 export class MovieCardComponent implements OnInit {
-movie: Movie
+  movie: Movie
 
   constructor(private movieService: MovieService) { }
 
   ngOnInit(): void {
-    this.movie=this.movieService.getActiveMovie()
+    this.movie = this.movieService.getActiveMovie()
 
   }
 
