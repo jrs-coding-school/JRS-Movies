@@ -1,10 +1,13 @@
 let a = "alex"
-a = 'asdf'
+a = "Alex"
+
 let b = "blake"
 b = 'bnm,'
 let j = "jazmin"
-j = "jkl;"
+j = "Jazmin"
+
 let s = "soufiane"
-s = "sdfg"
+s = "Soufiane"
+
 let t = "tanner"
-t = "tyui"
+t = "Tanner"
