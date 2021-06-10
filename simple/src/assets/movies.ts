@@ -5,7 +5,7 @@ export const Movies = [
         director : "Sean Penn",
         genre: "adventure drama",
         ratingRT: 83,
-        posterPath:"https://hipwallpaper.com/view/fnHtIB"
+        posterPath:"https://cdn.hipwallpaper.com/m/1/64/hvzxO3.jpg"
     },
     {
         title : "The Transporter",
