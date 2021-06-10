@@ -23,4 +23,13 @@ export const Movies = [
         ratingRT: 70,
        posterPath:"https://hipwallpaper.com/speed-racer-wallpapers/"
     }
+
+    {
+        title : "The Hunt Wallpaper",
+        year : 2020,
+        director : "Craig Zobel",
+        genre: "Horror",
+        ratingRT: 95,
+       posterPath:"https://cdn.hipwallpaper.com/m/42/30/JrgfAR.jpg"
+    }
 ];
