@@ -20,8 +20,9 @@ export class MovieListComponent implements OnInit {
     //TODO: get actual array of movies
   }
 
-  onMovieClick(i: number) {
+  onMovieClicked(i: number) {
     this.movieService.setActiveMovie(this.movies[i])
+    console.log(this.movies[i])
 
   }
 
