@@ -1,6 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { MovieService } from 'src/app/services/movie.service';
 import { Movie } from 'src/models/movie.model';
+import { Movies } from '../../../assets/movies';
+
 
 
 @Component({
@@ -10,10 +12,7 @@ import { Movie } from 'src/models/movie.model';
 })
 export class MovieListComponent implements OnInit {
 
-  movies = [
-    { title: "test title" },
-    { title: 'test 2 the sequel' }]
-
+  movies = Movies
 
   constructor(private movieService: MovieService) { }
 
@@ -21,7 +20,7 @@ export class MovieListComponent implements OnInit {
     //TODO: get actual array of movies
   }
 
-  onMovieClicked(i: number) {
+  onMovieClick(i: number) {
     this.movieService.setActiveMovie(this.movies[i])
 
   }
