@@ -22,7 +22,7 @@ export const Movies = [
         genre: "manga",
         ratingRT: 70,
        posterPath:"https://hipwallpaper.com/speed-racer-wallpapers/"
-    }
+    },
 
     {
         title : "The Hunt Wallpaper",
