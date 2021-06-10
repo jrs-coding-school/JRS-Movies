@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: rgb(206, 0, 0) solid 5px;
+  border:rgb(206, 0, 0) inset 5px;
+  width: 400px;
+  height: 600px;
+  outline: 6px black solid;
+  outline-offset: -11px;
+  box-shadow: 5px 10px 10px black;
+  padding: 0
+  
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: helvetica;
+    border-bottom: black solid 6px;
+    width: 400px;
+    
+    
+    
+    
+}
+
+.movie-poster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 450px;
+    
+  
+}
