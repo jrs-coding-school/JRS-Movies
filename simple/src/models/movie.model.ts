@@ -4,6 +4,6 @@ export class Movie {
   year?: number;
   director?: string;
   genre?: string;
-  rating?: number;
-  posterFileName?: string; // 'http://website.com/image.jpeg'
+  ratingRT?: number;
+  posterPath?: string; // 'http://website.com/image.jpeg'
 }
