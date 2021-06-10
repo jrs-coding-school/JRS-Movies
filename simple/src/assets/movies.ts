@@ -25,7 +25,7 @@ export const Movies = [
     },
 
     {
-        title : "The Hunt Wallpaper",
+        title : "The Hunt",
         year : 2020,
         director : "Craig Zobel",
         genre: "Horror",
