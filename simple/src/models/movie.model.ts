@@ -3,8 +3,7 @@ export class Movie {
   title: string;
   year?: number;
   director?: string;
-  genre?: string; 
+  genre?: string;
   rating?: number;
-  posterFileName?: string; // 'godfather.jpeg'
-  
-  }
+  posterFileName?: string; // 'http://website.com/image.jpeg'
+}

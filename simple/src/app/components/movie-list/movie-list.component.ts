@@ -10,7 +10,7 @@ import { Movie } from 'src/models/movie.model';
 })
 export class MovieListComponent implements OnInit {
 
-  movies: Movie[] = [
+  movies = [
     { title: "test title" },
     { title: 'test 2 the sequel' }]
 
@@ -18,7 +18,7 @@ export class MovieListComponent implements OnInit {
   constructor(private movieService: MovieService) { }
 
   ngOnInit(): void {
-
+    //TODO: get actual array of movies
   }
 
   onMovieClicked(i: number) {

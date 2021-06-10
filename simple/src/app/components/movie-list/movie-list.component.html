@@ -2,7 +2,11 @@
 
     <div class="title" *ngFor="let movie of movies ; index as i" click="onMovieClick(i)">
 
-        <p>{{movie.title}}</p>
+        <ul>
+            <li>{{movie.title}}</li>
+            <li>{{movie.year}}</li>
+            <li>{{movie.genre}}</li>
+        </ul>
 
     </div>
 </div>
