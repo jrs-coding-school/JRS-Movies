@@ -1,16 +1,14 @@
-
-
 .root {
-    width: 20%;
-    display: flex;
-   
+    width: 40%;
 }
 
 .title{
-    border: solid rgb(28, 207, 109) 3px;
+    border: solid red 3px;
     background-color: grey;
     padding: 0.50em;
     margin: 0.25em;
     font-weight: bold;
     cursor: pointer;
- }
+    
+    
+}
