@@ -21,7 +21,7 @@ export const Movies = [
         director : "Shōnen Book",
         genre: "manga",
         ratingRT: 70,
-       posterPath:"https://hipwallpaper.com/speed-racer-wallpapers/"
+       posterPath:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4bx8Tdq2rdf7xWopaiAoJqdu8FGfnb0J6uA&usqp=CAU"
     },
 
     {
