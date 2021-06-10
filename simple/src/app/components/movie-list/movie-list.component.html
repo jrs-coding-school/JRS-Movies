@@ -1,12 +1,7 @@
-<div class="root">
+<div class="body">
 
-    <div class="title" *ngFor="let movie of movies ; index as i" click="onMovieClick(i)">
-
-        <ul>
-            <li>{{movie.title}}</li>
-            <li>{{movie.year}}</li>
-            <li>{{movie.genre}}</li>
-        </ul>
+    <div class="title" *ngFor="let movie of movies ; index as i" click="onMovieClicked(i)">
+        <div class="movie">{{movie.title}}</div>
 
     </div>
 </div>
