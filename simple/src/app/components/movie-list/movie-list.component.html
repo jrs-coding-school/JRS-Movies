@@ -2,10 +2,7 @@
 
     <div class="title" *ngFor="let movie of movies ; index as i" (click)="onMovieClicked(i)">
 
-        <ul>
-            <li>{{movie.title}}</li>
-            
-        </ul>
+        <div class="movie">{{movie.title}}</div>
 
     </div>
 </div>
