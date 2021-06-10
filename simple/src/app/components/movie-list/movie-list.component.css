@@ -1,12 +1,39 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 95%;
+  padding-top: 30px;
+  justify-content: space-around;
+}
+.movie {
+  text-transform: uppercase;
+  margin: 5px;
+  padding: 18px 4px 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-blend-mode: color;
+  max-width: 270px;
+  border-radius: 5px;
 
-
-.title{
-    border: solid red 3px;
-    background-color: grey;
-    padding: 0.50em;
-    margin: 0.25em;
-    font-weight: bold;
-    cursor: pointer;
-    
-    
+  box-shadow: 10px 10px 10px #111;
+  transition: background-color 0.25s linear;
+  text-align: center;
+  background-size: cover;
+  text-decoration: none;
+}
+.movie:hover {
+  
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1);
+  color: azure;
 }
