@@ -13,6 +13,7 @@
   justify-content: space-around;
 }
 .movie {
+  text-transform: uppercase;
   margin: 5px;
   padding: 18px 4px 9px;
   display: flex;
@@ -29,7 +30,7 @@
   text-decoration: none;
 }
 .movie:hover {
-  text-transform: uppercase;
+  
   background-color: rgba(0, 0, 0, 0.8);
   cursor: pointer;
   transition: 0.5s;
