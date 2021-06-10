@@ -1,0 +1,8 @@
+<div class="root">
+
+    <div class="title" *ngFor="let movie of movies ; index as i" (click)="onMovieClicked(i)">
+
+        <div class="movie">{{movie.title}}</div>
+
+    </div>
+</div>

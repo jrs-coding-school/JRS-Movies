@@ -1,0 +1,16 @@
+
+.contain{
+    display: flex;
+    justify-content: center;
+    padding-left: 3em;
+}
+.list{
+ float: left;
+}
+
+
+.footer{
+    padding:50px 0;
+    color:grey;
+    background-color:#282d32;
+}
