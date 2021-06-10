@@ -4,7 +4,7 @@ export class Movie {
   year: number;
   director: string;
   genre: string; 
-  rating: number;
-  posterFileName: string; // 'godfather.jpeg'
+  ratingRT: number;
+  posterPath: string; // 'godfather.jpeg'
   
   }
