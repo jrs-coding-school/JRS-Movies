@@ -1,1 +1,8 @@
-<p>movie-list works!</p>
+<div class="root">
+
+    <div class="title" *ngFor="let movie of movies ; index as i" click="onMovieClick(i)">
+
+        <p>{{movie.title}}</p>
+
+    </div>
+</div>

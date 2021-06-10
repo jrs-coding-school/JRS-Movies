@@ -1,0 +1,13 @@
+.root {
+    width: 20%;
+}
+
+.title{
+    border: solid burlywood 3px;
+    background-color: cornsilk;
+    padding: 0.50em;
+    margin: 0.25em;
+    font-weight: bold;
+    
+    
+}
