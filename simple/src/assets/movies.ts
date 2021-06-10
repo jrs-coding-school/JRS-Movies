@@ -5,7 +5,7 @@ export const Movies = [
         director : "Sean Penn",
         genre: "adventure drama",
         ratingRT: 83,
-        posterPath:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ladislasdesign.com%2Finto-the-wild-alternative-movie-poster-illustration%2F&psig=AOvVaw2_RGM9qDU31bVgz2km1BS9&ust=1623418819954000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJixxMWYjfECFQAAAAAdAAAAABAD"
+        posterPath:"https://www.pinterest.com/pin/354728908126287604/"
     },
     {
         title : "The Transporter",
