@@ -5,7 +5,7 @@ export const Movies = [
         director : "Sean Penn",
         genre: "adventure drama",
         ratingRT: 83,
-        posterPath:"https://cdn.hipwallpaper.com/m/1/64/hvzxO3.jpg"
+        posterPath:"https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Into_the_Wild_%282007_film_poster%29.png/220px-Into_the_Wild_%282007_film_poster%29.png"
     },
     {
         title : "The Transporter",
@@ -21,7 +21,7 @@ export const Movies = [
         director : "Shōnen Book",
         genre: "manga",
         ratingRT: 70,
-       posterPath:"https://hipwallpaper.com/speed-racer-wallpapers/"
+       posterPath:"https://upload.wikimedia.org/wikipedia/en/8/82/Speed_racer_ver5_xlg.jpg"
     },
 
     {
@@ -30,6 +30,6 @@ export const Movies = [
         director : "Craig Zobel",
         genre: "Horror",
         ratingRT: 95,
-       posterPath:"https://cdn.hipwallpaper.com/m/42/30/JrgfAR.jpg"
+       posterPath:"https://www.uphe.com/sites/default/files/styles/scale__344w_/public/2020/04/TheHunt_DVD_2DOring_191329086933.png"
     }
 ];
