@@ -3,8 +3,6 @@ import { MovieService } from 'src/app/services/movie.service';
 import { Movie } from 'src/models/movie.model';
 import { Movies } from '../../../assets/movies';
 
-
-
 @Component({
   selector: 'app-movie-list',
   templateUrl: './movie-list.component.html',
@@ -12,16 +10,15 @@ import { Movies } from '../../../assets/movies';
 })
 export class MovieListComponent implements OnInit {
 
-  movies = Movies
+  public movies: Movie[];
 
   constructor(private movieService: MovieService) { }
 
   ngOnInit(): void {
+    this.movies = Movies;
   }
 
   onMovieClicked(i: number) {
     this.movieService.setActiveMovie(this.movies[i])
-
   }
-
 }
