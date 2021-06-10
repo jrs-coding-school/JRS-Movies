@@ -1,0 +1,11 @@
+
+.contain{
+    display: flex;
+    justify-content: center;
+    padding-left: 3em;
+}
+.list{
+ float: left;
+}
+
+

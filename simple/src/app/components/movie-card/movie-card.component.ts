@@ -22,7 +22,6 @@ export class MovieCardComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.movie = this.movieService.getActiveMovie()
 
   }
 
