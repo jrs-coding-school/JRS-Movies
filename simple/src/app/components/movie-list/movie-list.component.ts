@@ -22,7 +22,6 @@ export class MovieListComponent implements OnInit {
 
   onMovieClicked(i: number) {
     this.movieService.setActiveMovie(this.movies[i])
-    console.log(this.movies[i])
 
   }
 
