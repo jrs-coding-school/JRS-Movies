@@ -10,7 +10,10 @@ import { Movie } from 'src/models/movie.model';
 })
 export class MovieListComponent implements OnInit {
 
-  movies: Movie[] = [];
+  movies: Movie[] = [
+    { title: "test title" },
+    { title: 'test 2 the sequel' }]
+
 
   constructor(private movieService: MovieService) { }
 
