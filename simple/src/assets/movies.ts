@@ -14,5 +14,13 @@ export const Movies = [
         genre: "action",
         ratingRT: 54,
         posterPath:"https://lumiere-a.akamaihd.net/v1/images/transporter1_584x800_49cfdd27.jpeg?region=0%2C0%2C584%2C800"
+    },
+    {
+        title : "Speed Racer",
+        year : 2008,
+        director : "Shōnen Book",
+        genre: "manga",
+        ratingRT: 70,
+       posterPath:"https://hipwallpaper.com/speed-racer-wallpapers/"
     }
 ];
