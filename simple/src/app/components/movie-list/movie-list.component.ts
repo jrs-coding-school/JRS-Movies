@@ -18,7 +18,7 @@ export class MovieListComponent implements OnInit {
   constructor(private movieService: MovieService) { }
 
   ngOnInit(): void {
-
+    //TODO: get actual array of movies
   }
 
   onMovieClicked(i: number) {
