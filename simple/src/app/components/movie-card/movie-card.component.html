@@ -2,18 +2,14 @@
 
   <h1>NOW PLAYING</h1>
   
-
-
-<div class="noMovieSelected" *ngIf="!movie">is this working?</div>
-
 <div class="movie-poster">
   <img src="{{ movie.posterPath }}" alt="{{ movie.title }}"/>
 </div>
 
 <div class= "movie-info">
-<p>{{ movie.title }}</p>
-<p>Released in {{ movie.year }}</p>
+<p style = "font-weight: bold">{{ movie.title | uppercase}} - {{ movie.year }}</p>
 <p>Directed by {{ movie.director }}</p>
+<p>Genre: {{movie.genre}}</p>
 <p>{{ movie.ratingRT }}% on Rotten Tomatoes</p>
 </div>
 </div>

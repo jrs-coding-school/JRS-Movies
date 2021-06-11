@@ -1,27 +1,35 @@
+
+
+
 .container {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
 
-  min-width: 50%;
-  min-height: 40%;
+  min-width:fit-content;
+  min-height: 75%;
 
-  border: rgb(206, 0, 0) outset 15px;
-  outline: 8px black inset;
+  border: var(--red) solid 15px;
+  outline: 10px black ridge;
   outline-offset: -20px;
   box-shadow: 5px 10px 10px black;
-
-  padding: 0 1em;
+  background-color: white;
   margin: 2em;
 }
 
 h1 {
   text-align: center;
   font-family: helvetica;
-  border-bottom: black solid 10px;
+  
+  border-bottom: 10px black ridge ;
   width: 100%;
-  padding: 0 .5em .5em .5em;
+  margin-top: .5em;
+  margin-right: 1em;
+  margin-left: 1em;
+  padding-bottom: .25em;
+ 
+  
 }
 
 .movie-poster {
@@ -29,12 +37,18 @@ h1 {
   justify-content: center;
   align-items: center;
   min-height: 75%;
-  min-width: calc(100%-10px)
+  min-width: calc(100%-10px);
+  padding: 1em;
+  background-color:white;
 }
 
 img {
   height: 23em;
-  margin: .5em 1em 1em 1em;
+  width: 17em;
+  margin: 0em 2em 0em 2em;
+  border: rgb(29, 28, 28) ridge 2px;
+  background-color: rgb(237, 237, 237);
+ 
 }
 
 .movie-info {
@@ -44,13 +58,16 @@ img {
   align-items: center;
   font-family: helvetica;
   font-size: 1em;
-  margin-bottom: 1em
+  margin-bottom: 1em;
+  margin-top: 0;
 
 }
 
 p {
   margin: 2px;
 }
+
+
 
 /* .noMovieSelected{
     border: black solid 2px;
