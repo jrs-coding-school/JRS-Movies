@@ -1,21 +1,28 @@
-
-.contain{
-    display: flex;
-    padding-left: 5em;
-    
-}
-.list{
- float: left;
+.contain {
+  display: flex;
+  padding-left: 5em;
 }
 
-
-.footer{
-    padding:25px 0;
-    color:grey;
-    background-color:#282d32;
+h1 {
+  text-align: center;
+}
+.list {
+  float: left;
 }
 
-p{
-    margin-left: 2em
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
 }
 
+footer {
+  padding: 1em 0;
+  color: grey;
+  background-color: #282d32;
+}
+
+p {
+  margin-left: 2em;
+}
