@@ -4,34 +4,28 @@
   box-sizing: border-box;
 }
 .body {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   margin: 0 auto;
   width: 95%;
-justify-content: space-around;
-  height: 75vh;
+  justify-content: space-around;
   width: 300px;
-  overflow-y: scroll;
-  
+ 
 }
 .movie {
   text-transform: uppercase;
-justify-content: space-between;
- box-shadow: 10px 10px 10px #111;
-text-align: center;
-top: 0px;
-position: relative;
-  max-width: 12em;
- border-radius: 3px;
-
-  margin: .5em;
-overflow: hidden;
-  opacity: 0.7;
-  height:100px;
+  justify-content: flex-start;
+  box-shadow: 10px 10px 10px #111;
+  text-align: center;
+  top: 0px;
+  position: relative;
+  width: 12em;
+  border-radius: 3px;
+  margin: 0.5em;
+  overflow: hidden;
+  background-color: grey;
+  height: 50px;
+  align-content: center;
 }
 .movie:hover {
-  background-color: rgba(113, 107, 105, 0.51);
   cursor: pointer;
   transition: 0.5s;
   transform: scale(1);
@@ -39,37 +33,22 @@ overflow: hidden;
   transition: all 0.3s ease-in-out;
   box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
   top: -4px;
-
-  opacity: 0.9;
-  
 }
 .movie:before {
   content: "";
   position: absolute;
   z-index: -1;
   left: -70px;
-  top:30px;
-  
-background:rgba(0, 0, 0, 0.51);
+  top: 30px;
+  background: rgba(0, 0, 0, 0.51);
   height: 32px;
   width: 32px;
 
   transform-origin: 50% 50%;
-  transition: .03s ease-in-out;
-
+  transition: 0.03s ease-in-out;
 }
 .movie:hover:before {
   position: left;
   transform: scale(38);
   transition: all 0.3s ease-in-out;
 }
-
-img {
-  border-radius: 5px;
-  max-width: 30%;
-  height: auto;
-}
-
-
-
-
