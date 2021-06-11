@@ -1,3 +1,6 @@
+
+
+
 .container {
   display: flex;
   justify-content: flex-start;
@@ -11,13 +14,14 @@
   outline: 10px black ridge;
   outline-offset: -20px;
   box-shadow: 5px 10px 10px black;
-  background-color: fff9f0;
+  background-color: white;
   margin: 2em;
 }
 
 h1 {
   text-align: center;
   font-family: helvetica;
+  
   border-bottom: 10px black ridge ;
   width: 100%;
   margin-top: .5em;
@@ -35,6 +39,7 @@ h1 {
   min-height: 75%;
   min-width: calc(100%-10px);
   padding: 1em;
+  background-color:white;
 }
 
 img {
@@ -43,6 +48,7 @@ img {
   margin: 0em 2em 0em 2em;
   border: rgb(29, 28, 28) ridge 2px;
   background-color: rgb(237, 237, 237);
+ 
 }
 
 .movie-info {
