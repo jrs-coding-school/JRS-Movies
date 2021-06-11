@@ -1,6 +1,6 @@
 <div class="body">
-    <div class="movie" *ngFor="let movie of movies ; index as i" (click)="onMovieClicked(i)">
+    <div class="movie" *ngFor="let movie of movies ; index as i" (click)="onMovieClicked(i)">{{movie.title}}
         <div><img src="{{ movie.posterPath }}" alt="{{ movie.title }}" /></div>
-        {{movie.title}}
+        
     </div>
 </div>
