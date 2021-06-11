@@ -11,6 +11,7 @@ import { Movies } from '../../../assets/movies';
 export class MovieListComponent implements OnInit {
 
   public movies: Movie[];
+  selectedMovie: Movie;
 
   constructor(private movieService: MovieService) { }
 
@@ -20,5 +21,6 @@ export class MovieListComponent implements OnInit {
 
   onMovieClicked(i: number) {
     this.movieService.setActiveMovie(this.movies[i])
+
   }
 }

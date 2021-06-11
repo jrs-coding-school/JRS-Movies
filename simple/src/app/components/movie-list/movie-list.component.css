@@ -1,77 +1,74 @@
-*, *::before, *::after {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 .body {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   margin: 0 auto;
   width: 95%;
-  padding-top: 30px;
-  justify-content: space-around;
+justify-content: space-around;
+  height: 75vh;
+  width: 300px;
+  overflow-y: scroll;
+  
 }
-
 .movie {
   text-transform: uppercase;
-  margin: 5px;
-  padding: 18px 4px 9px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-blend-mode: color;
-  max-width: 270px;
-  box-shadow: 10px 10px 10px #111;
-  transition: background-color 0.25s linear;
-  text-align: center;
-  background-size: cover;
-  overflow: hidden;
-  border: 1px solid #cccccc;
-  display: block;
+justify-content: space-between;
+ box-shadow: 10px 10px 10px #111;
+text-align: center;
+
   top: 0px;
-  position: relative;
-  display: block;
-  top: 0px;
-  position: relative;
-  max-width: 262px;
- 
-  border-radius: 4px;
-  padding: 32px 24px;
-  margin: 12px;
-  text-decoration: none;
-  z-index: 0;
-  overflow: hidden;
+position: relative;
+  max-width: 10em;
+ border-radius: 15px;
+  padding: 2em 12px;
+  margin: 2em;
+overflow: hidden;
   border: 1px solid #f2f8f9;
+  opacity: 0.7;
 }
 .movie:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(113, 107, 105, 0.51);
   cursor: pointer;
   transition: 0.5s;
   transform: scale(1);
   color: azure;
-  transition: all 0.2s ease-out;
+  transition: all 0.3s ease-in-out;
   box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
   top: -4px;
-  border: 1px solid #cccccc;
+
+  opacity: 0.9;
   
 }
 .movie:before {
   content: "";
   position: absolute;
   z-index: -1;
-  top: -16px;
-  right: -16px;
-  background: #000000;
+  left: -70px;
+  top:30px;
+  
+background:rgba(0, 0, 0, 0.51);
   height: 32px;
   width: 32px;
-  border-radius: 32px;
-  transform: scale(2);
+
   transform-origin: 50% 50%;
-  transition: transform 0.15s ease-out;
+  transition: .03s ease-in-out;
+
 }
 .movie:hover:before {
   position: left;
-  transform: scale(20);
-  transition: all 0.4s ease-in-out;
+  transform: scale(38);
+  transition: all 0.3s ease-in-out;
 }
+
+img {
+  border-radius: 15px;
+  max-width: 100%;
+  height: auto;
+}
+
+

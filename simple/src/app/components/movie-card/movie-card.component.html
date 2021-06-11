@@ -1,17 +1,19 @@
 <div class="container">
 
-  <div>
-    <h1>NOW PLAYING</h1>
-  </div>
+  <h1>NOW PLAYING</h1>
+  
 
-  <div class="noMovieSelected" *ngIf="!movie"></div>
 
-  <div class="movie-poster">
-    <img src="{{ movie.posterPath }}" alt="{{ movie.title }}" />
-  </div>
+<div class="noMovieSelected" *ngIf="!movie">is this working?</div>
 
-  <h1>{{ movie.title }}</h1>
-  <p>Released in {{ movie.year }}</p>
-  <p>Directed by {{ movie.director }}</p>
-  <p>Rating {{ movie.ratingRT }} on Rotten Tomatoes</p>
+<div class="movie-poster">
+  <img src="{{ movie.posterPath }}" alt="{{ movie.title }}"/>
+</div>
+
+<div class= "movie-info">
+<p>{{ movie.title }}</p>
+<p>Released in {{ movie.year }}</p>
+<p>Directed by {{ movie.director }}</p>
+<p>{{ movie.ratingRT }}% on Rotten Tomatoes</p>
+</div>
 </div>
