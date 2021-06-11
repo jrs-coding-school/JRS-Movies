@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { MovieService } from 'src/app/services/movie.service';
 import { Movie } from 'src/models/movie.model';
-import { Movies } from '../../../assets/movies';
+
 
 @Component({
   selector: 'app-movie-list',
@@ -16,7 +16,10 @@ export class MovieListComponent implements OnInit {
   constructor(private movieService: MovieService) { }
 
   ngOnInit(): void {
-    this.movies = Movies;
+    
+    this.movieService.getMovies().subscribe((data)=>{
+      this.movies=data
+    })
   }
 
   onMovieClicked(i: number) {

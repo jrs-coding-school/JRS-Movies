@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { MovieCardComponent } from './components/movie-card/movie-card.component';
 import { MovieListComponent } from './components/movie-list/movie-list.component';
 import { MainPageComponent } from './components/main-page/main-page.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 
 @NgModule({
@@ -19,7 +21,8 @@ import { MainPageComponent } from './components/main-page/main-page.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
