@@ -2,45 +2,45 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
-
-
 .body {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
- width: 95%;
-  padding-top: 2em;
-  justify-content: space-around;
-  margin: auto;
- 
-  }
+  margin: 0 auto;
+  width: 95%;
+justify-content: space-around;
+  height: 75vh;
+  width: 300px;
+  overflow-y: scroll;
+  
+}
 .movie {
   text-transform: uppercase;
 justify-content: space-between;
  box-shadow: 10px 10px 10px #111;
 text-align: center;
-top: 0px;
+
+  top: 0px;
 position: relative;
   max-width: 10em;
  border-radius: 15px;
-  padding: 1em .5em;
-  margin: 1em;
+  padding: 2em 12px;
+  margin: 2em;
 overflow: hidden;
   border: 1px solid #f2f8f9;
   opacity: 0.7;
- 
 }
 .movie:hover {
-  background-color: rgba(84, 82, 81, 0.596);
+  background-color: rgba(113, 107, 105, 0.51);
   cursor: pointer;
-transform: scale(1);
+  transition: 0.5s;
+  transform: scale(1);
   color: azure;
-  transition:  0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
   top: -4px;
-  border: 1px solid #cccccc;
+
   opacity: 0.9;
   
 }
@@ -50,17 +50,21 @@ transform: scale(1);
   z-index: -1;
   left: -70px;
   top:30px;
-  background: #000000;
+  
+background:rgba(0, 0, 0, 0.51);
   height: 32px;
   width: 32px;
-transform-origin: 50% 50%;
+
+  transform-origin: 50% 50%;
   transition: .03s ease-in-out;
+
 }
 .movie:hover:before {
   position: left;
   transform: scale(38);
-  transition: all 0.4s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
+
 img {
   border-radius: 15px;
   max-width: 100%;
